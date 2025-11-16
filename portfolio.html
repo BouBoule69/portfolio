@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Haimanjary</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!--ceci est pour les logos dans les competences-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <!--debut header-->
+    <header>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">Haimanjary</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#accueil">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--fin navbar-->
+    </header>
+    <!--fin header-->
+
+    <!--debut main-->
+    <main>
+        <!--debut banniere-->
+        <section id="banner" class="text-white d-flex align-items-center">
+            <div class="container">
+                <!-- Texte à droite -->
+                <div class="texte">
+                    <h1 class="fw-bold">Bienvenue sur mon Portfolio</h1>
+                    <p>Je suis Haimanjary Andriamasimanana— Développeur polyvalent</p>
+                </div>
+            </div>
+        </section>
+        <!--fin banniere-->
+
+        <section id="apropos" class="container my-5">
+            <!--utilisation d'un card-->
+            <div class="card shadow-lg p-4">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center">
+                        <img src="image/moi.jpg" alt="Photo de Haimanjary"
+                            class="img-fluid rounded-circle photo-profil">
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="card-title">À propos de moi</h2>
+                        <p class="card-text">
+                            Je suis passionné par la programmation et j’explore différents langages comme
+                            le C++, Java, Python et autres ainsi que le développement web avec HTML, CSS et Bootstrap.
+                            J’aime apprendre en créant des projets concrets et
+                            je complète mes compétences par des expériences en systèmes, réseaux et cybersécurité.
+                            Mais à part cela, je suis aussi une personne polyvalente au sein de la société qui contribue
+                            à différentes tâches dans de nombreux domaines dans le but de trouver ma propre voie dans la
+                            vie.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!--debut section -->
+        <section id="projets" class="container my-5">
+            <h2 class="text-center mb-4">Mes Projets</h2>
+            <div class="row g-4">
+                <!-- Projet 1 -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <!--Utilisation de carousel-->
+                        <div id="carouselExample1" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/moiEtFred.jpg" class="d-block w-100" alt="Projet 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/projet1Code.PNG" class="d-block w-100" alt="Projet 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/projet1a.PNG" class="d-block w-100" alt="Projet 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/projet1b.PNG" class="d-block w-100" alt="Projet 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/projet1c.PNG" class="d-block w-100" alt="Projet 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/projet1d.PNG" class="d-block w-100" alt="Projet 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/projet1e.PNG" class="d-block w-100" alt="Projet 1">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Projet 1</h5>
+                            <p class="card-text">Développement d’une application console en C++ permettant
+                                d’ajouter, modifier et rechercher des informations
+                                sur les étudiants (nom, note, ID, etc.).
+                                Projet avec un ami.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2 -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div id="carouselExample2" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/portfolio1.PNG" class="d-block w-100" alt="Projet 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/portfolio2.PNG" class="d-block w-100" alt="Projet 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/portfolio3.PNG" class="d-block w-100" alt="Projet 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/portfolio4.PNG" class="d-block w-100" alt="Projet 2">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Projet 2</h5>
+                            <p class="card-text">Projet web: Conception d'un portfolio à l'aide de
+                                HTML, CSS, framework CSS Bootstrap. Projet personnel pour permettre de
+                                présenter les compétences , les projets et réalisations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--les competences-->
+        <section id="competences" class="container my-5 text-center">
+            <h2>Compétences</h2>
+
+            <!-- Langages -->
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-2 mb-3">
+                    <p><i class="fab fa-html5 fa-lg text-danger"></i> HTML / CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <p><img src="image/C++logo.png" alt="C++" class="Cplus-icon"> C++</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <p><i class="fab fa-bootstrap fa-lg text-primary"></i> Bootstrap</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 40%"></div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <p><i class="fab fa-java fa-lg text-warning"></i> Java</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 30%"></div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <p><i class="fab fa-python fa-lg text-info"></i> Python</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <p><i class="fas fa-file-alt fa-lg text-secondary"></i> LaTeX</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Outils -->
+            <h3 class="mt-5">Outils</h3>
+            <div class="row mt-2 justify-content-center ">
+                <div class="col-md-2 mb-3">
+                    <p><img src="image/logo-linux.jpg" alt="Linux" class="outils-logo"> Linux</p>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <p><img src="image/ubuntu-logo.jpg" alt="Ubuntu" class="outils-logo"> Ubuntu WSL</p>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <p><img src="image/vscode-logo.jpg" alt="VS Code" class="outils-logo"> VS Code</p>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <p><img src="image/git-logo.png" alt="Git" class="outils-logo"> Git / GitHub</p>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <p><img src="image/Packet-logo.jpg" alt="Packet Tracer" class="outils-logo"> Packet Tracer</p>
+                </div>
+            </div>
+            <!--fin outils-->
+
+            <h4 class="mt-5">Collaboration</h3>
+                <div class="row mt-2 justify-content-center collaboration-logo">
+                    <div class="col-md-3 mb-3">
+                        <p>
+                            <img src="image/zoom-logo.png" alt="Zoom"> Zoom
+                        </p>
+
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <p><img src="image/skype-logo.png" alt="Skype"> Skype</p>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <p><img src="image/teams-logo.png" alt="Teams"> Microsoft teams</p>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <p><img src="image/google-meet.jpg" alt="Google-meet"> Google Meet</p>
+                    </div>
+
+                </div>
+
+        </section>
+
+
+
+        <section id="contact" class="container my-5">
+            <h2 class="text-center mb-4">Contact</h2>
+
+            <!-- Infos de contact -->
+            <div class="text-center mb-4">
+                <p>Tu peux me joindre à :</p>
+                <p>
+                    <a href="mailto:haimanjary@gmail.com" target="_blank">
+                        <img src="image/gmail-logo.jpg" alt="Gmail" class="gmail-icon"> Email </a> |
+                    <a href="https://github.com/BouBoule69" target="_blank"><i class="fab fa-github fa-lg logo"></i>
+                        GitHub</a> |
+                    <a href="https://www.facebook.com/haimanjary" target="_blank"><i
+                            class="fab fa-facebook fa-lg logo"></i> Facebook</a> |
+                    <a href="https://www.linkedin.com/in/haimanjary-andri-97025332b" target="_blank"><i
+                            class="fab fa-linkedin fa-lg logo"></i> Linkedin</a>
+                </p>
+            </div>
+            <!--fin Infos de contact-->
+
+            <!-- Debut Formulaire de contact -->
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="name" placeholder="Votre nom">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Votre email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Votre message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </section>
+        <!--fin formulaire de contact-->
+
+
+        <!--fin section-->
+
+
+    </main>
+    <!--fin main-->
+
+   <!--pied de page-->
+<footer class="footer-minimal">
+    <div class="footer-content">
+        <a href="#banner" class="home-link">Home</a>
+        <p>&copy;2025 All Rights Reserved</p>
+    </div>
+</footer>
+<!--fin pied de page-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
